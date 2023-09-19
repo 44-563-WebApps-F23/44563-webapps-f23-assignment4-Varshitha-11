@@ -1,0 +1,63 @@
+.speech {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+  }
+  
+   .direction {
+    font-family: Times New Roman, serif;
+    font-size: 14px;
+    color: black;
+    background-color: #dbe9e9; 
+  }
+  
+   .direction:hover {
+    background-color: #ea8282; 
+    color: white;
+  }
+    /* Character name class styles */
+  .hEDDA {
+    color: #11cfb3; /* Blue for hEDDA.*/
+  }
+    .hEDDA {
+    color: #d9199c; /* Orange for hEDDA */
+  }
+    .lovborg{
+    color: #009933; /* Green for lovborg  */
+  }
+  /* Apply styles to the table */
+  .cast-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .cast-table th, .cast-table td {
+    border: 1px solid #171718;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .cast-table th {
+    background-color: #e1dedc;
+    text-align: center; /* Center-align headers */
+  }
+  
+  /* Add stripes to table rows */
+  .cast-table tbody tr:nth-child(even) {
+    background-color: #b9e15b;
+  }
+  
+  /* Apply color styles to specific classes */
+  .character {
+    color:#171718
+  }
+  
+  .actor {
+    color: rgb(96, 11, 241);
+  }
+  
+  .understudy {
+    color: hotpink;
+  }
+  
