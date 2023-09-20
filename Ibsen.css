@@ -70,4 +70,23 @@
     border: dotted 2px azure;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   }
+
+  body, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style the main content */
+  main {
+    padding: 20px;
+    text-align: center;
+  }
   
